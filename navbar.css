@@ -1,0 +1,22 @@
+#navbar{
+    text-align:center;
+    }
+    
+#navbar li{
+    display:inline-block;
+    border: 2px solid red;     
+    
+    transition:.09s all linear;
+    background-color:green;
+    transform:rotateZ(180deg);
+    
+    
+}
+#navbar li:hover{
+    background-color:yellow;
+    transform:rotateZ(360deg);
+} 
+
+#navbar a{
+    color:orange;
+}
